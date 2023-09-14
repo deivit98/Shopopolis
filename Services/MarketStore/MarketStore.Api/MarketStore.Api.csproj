@@ -22,8 +22,4 @@
     <ProjectReference Include="..\MarketStore.Infrastructure\MarketStore.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Dto\" />
-  </ItemGroup>
-
 </Project>
