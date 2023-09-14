@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  marketstore.api:
+    image: ${DOCKER_REGISTRY-}marketstoreapi
+    build:
+      context: .
+      dockerfile: Services/MarketStore/MarketStore.Api/Dockerfile
