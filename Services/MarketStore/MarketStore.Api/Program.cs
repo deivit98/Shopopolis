@@ -8,7 +8,7 @@ builder.Services.Configure<DatabaseSettings>(
     builder.Configuration.GetSection("Database"));
 
 builder.Services.AddSingleton<MarketStoreDbContext>();
-builder.Services.AddSingleton<ProductService>();
+builder.Services.AddScoped<ProductService>();
 
 builder.Services.AddControllers()
     .AddJsonOptions(
